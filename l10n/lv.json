@@ -1,5 +1,6 @@
 { "translations": {
     "User not found" : "Lietotājs nav atrasts",
+    "An unexpected error occurred, ask your administration to check the logs." : "Atgadījās neparedzēta kļūda, jāvaicā pārvaldītājam pārbaudīt žurnālus.",
     "Hello %s" : "Sveiciens, %s!",
     "Hello %s," : "Sveiciens, %s!",
     "Admin notifications" : "Pārvaldītāju paziņojumi",
@@ -17,7 +18,7 @@
     "1 week" : "1 nedēļa",
     "Your settings have been updated." : "Iestatījumi tika atjaunināti.",
     "None" : "Nav",
-    "You need to set up your email address before you can receive notification emails." : "Lai saņemtu paziņojumus e-pastā, jūsu profilā ir nepieciešams uzstādīt e-pasta adresi.",
+    "You need to set up your email address before you can receive notification emails." : "Ir nepieciešams iestatīt e-pasta adresi, lai varētu saņemt paziņojumus e-pastā.",
     "seconds ago" : "pirms vairākām sekundēm"
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
 }

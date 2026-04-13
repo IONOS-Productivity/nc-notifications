@@ -18,7 +18,7 @@ OC.L10N.register(
     "This app provides a backend and frontend for the notification API available in Nextcloud.\n\t\tThe API is used by other apps to notify users in the web UI and sync clients about various things. Some examples are:\n\n📬 Federated file sharing: You received a new remote share\n\n📑 Comments: Another user mentioned you in a comment on a file\n\n🚢 Update notification: Available update for an app or nextcloud itself\n\n📣 Announcement center: An announcement was posted by an admin" : "此应用为 Nextcloud 中已有的通知 API 提供后端和前端。\n\t\t这个 API 被其他应用使用来给 Web 界面及同步客户端中的用户发送通知和提醒。举一些例子：\n\n📬 联合云文件共享： 您收到一个新的远程共享\n\n📑 评论： 另一个用户在文件评论中提到了您\n\n🚢 更新通知： 应用或 Nextcloud 自身有可用更新\n\n📣 通知中心： 管理员发布了一个通知",
     "Failed to perform action" : "操作失败",
     "Failed to dismiss notification" : "清除通知失败",
-    "Dismiss" : "忽略",
+    "Dismiss" : "关闭",
     "Contact Nextcloud GmbH" : "联系 Nextcloud GmbH",
     "in {path}" : "在 {path}",
     "Push notifications might be unreliable" : "推送通知可能不可靠",
@@ -35,7 +35,7 @@ OC.L10N.register(
     "Your settings have been updated." : "已更新设置",
     "An error occurred while updating your settings." : "更新设置时出错",
     "Notifications defaults" : "默认通知设置",
-    "Configure the default notification settings for new users" : "配置新用户的默认通知设置",
+    "Configure the default notification settings" : "配置默认通知设置",
     "Send email reminders about unhandled notifications after:" : "多久之后发送电子邮件提醒未处理的通知：",
     "Play sound when a new notification arrives" : "收到新通知时播放提示音",
     "Play sound when a call started (requires Nextcloud Talk)" : "通话开始时播放提示音（需要Nextcloud通话应用）",
@@ -44,6 +44,7 @@ OC.L10N.register(
     "Also repeat sound on a secondary speaker" : "还要在辅助扬声器上重复声音",
     "Selection of the speaker device is currently not supported by Safari" : "Safari 当前不支持选择扬声器设备",
     "Select a device" : "选择设备",
-    "seconds ago" : "几秒前"
+    "seconds ago" : "几秒前",
+    "Configure the default notification settings for new users" : "配置新用户的默认通知设置"
 },
 "nplurals=1; plural=0;");

@@ -1,7 +1,9 @@
 OC.L10N.register(
     "notifications",
     {
+    "We want to keep offering our push notification service for free, but large number of users overload our infrastructure. For this reason we have to rate-limit the use of push notifications. If you need this feature, consider using Nextcloud Enterprise." : "Θέλουμε να συνεχίσουμε να προσφέρουμε την υπηρεσία push ειδοποιήσεων δωρεάν, αλλά μεγάλος αριθμός χρηστών υπερφορτώνει την υποδομή μας. Για αυτόν τον λόγο πρέπει να περιορίσουμε το ρυθμό χρήσης των push ειδοποιήσεων. Εάν χρειάζεστε αυτή τη λειτουργία, εξετάστε τη χρήση του Nextcloud Enterprise.",
     "User not found" : "Ο/Η χρήστης δεν βρέθηκε",
+    "An unexpected error occurred, ask your administration to check the logs." : "Προέκυψε ένα μη αναμενόμενο σφάλμα, ζητήστε από τη διαχείριση να ελέγξει τα αρχεία καταγραφής.",
     "Hello %s" : "Γεια σας 1%s",
     "Hello %s," : "Γεια σας 1%s,",
     "_New notification for %s_::_%n new notifications for %s_" : ["Νέα ειδοποίηση για %s","%n νέες ειδοποιήσεις για %s "],
@@ -10,6 +12,8 @@ OC.L10N.register(
     "You can change the frequency of these emails or disable them in the settings: %s" : "Μπορείτε να αλλάξετε τη συχνότητα αυτών των email ή να τα απενεργοποιήσετε στις ρυθμίσεις: 1%s",
     "Admin notifications" : "Ειδοποιήσεις διαχειριστή",
     "Notifications" : "Ειδοποιήσεις",
+    "Push notifications - Fair use policy" : "Push ειδοποιήσεις - Πολιτική δίκαιης χρήσης",
+    "Nextcloud GmbH sponsors a free push notification gateway for private users. To ensure good service, the gateway limits the number of push notifications per server and the limit was reached for this server. For enterprise users, a more scalable gateway is available." : "Η Nextcloud GmbH χορηγεί ένα δωρεάν gateway push ειδοποιήσεων για ιδιώτες χρήστες. Για να διασφαλιστεί καλή εξυπηρέτηση, το gateway περιορίζει τον αριθμό των push ειδοποιήσεων ανά διακομιστή και το όριο επιτεύχθηκε για αυτόν τον διακομιστή. Για επιχειρηματικούς χρήστες, είναι διαθέσιμο ένα πιο επεκτάσιμο gateway.",
     "This app provides a backend and frontend for the notification API available in Nextcloud." : "Εφαρμογή ειδοποιήσεων API για  backend και frontend διαθέσιμο στο Nextcloud.",
     "This app provides a backend and frontend for the notification API available in Nextcloud.\n\t\tThe API is used by other apps to notify users in the web UI and sync clients about various things. Some examples are:\n\n📬 Federated file sharing: You received a new remote share\n\n📑 Comments: Another user mentioned you in a comment on a file\n\n🚢 Update notification: Available update for an app or nextcloud itself\n\n📣 Announcement center: An announcement was posted by an admin" : "Εφαρμογή ειδοποιήσεων API για backend και frontend διαθέσιμο στο Nextcloud.\n\t\tΤο API χρησιμοποιείται από άλλες εφαρμογές για παροχή ειδοποιήσεων στον χρήστη σχετικά με διάφορα θέματα. Κάποια παραδείγματα είναι:\n\n📬 Federated κοινόχρηστα: Με τη λήψη νέου κοινόχρηστου\n\n📑 Σχόλια: Όταν κάποιος χρήστης αναφέρει το όνομά σας σε κάποιο αρχείο\n\n🚢  Ειδοποίηση αναβάθμισης: Όταν είναι διαθέσιμη αναβάθμιση εφαρμογής ή του nextcloud\n\n📣  Ανακοινώσεις: Δημοσίευση ανακοίνωσης από τον διαχειριστή",
     "Failed to perform action" : "Αποτυχία εκτέλεσης ενέργειας",
@@ -31,12 +35,16 @@ OC.L10N.register(
     "Your settings have been updated." : "Οι ρυθμίσεις σας έχουν ενημερωθεί.",
     "An error occurred while updating your settings." : "Παρουσιάστηκε σφάλμα κατά την ενημέρωση των ρυθμίσεών σας.",
     "Notifications defaults" : "Προεπιλογές ειδοποιήσεων",
-    "Configure the default notification settings for new users" : "Καθορίστε τις προεπιλεγμένες ρυθμίσεις ειδοποιήσεων για νέους χρήστες.",
+    "Configure the default notification settings" : "Διαμόρφωση των προεπιλεγμένων ρυθμίσεων ειδοποιήσεων",
     "Send email reminders about unhandled notifications after:" : "Αποστολή υπενθυμίσεων μέσω email για μη χειριζόμενες ειδοποιήσεις μετά από:",
     "Play sound when a new notification arrives" : "Αναπαραγωγή ήχου όταν φτάσει μια νέα ειδοποίηση",
     "Play sound when a call started (requires Nextcloud Talk)" : "Αναπαραγωγή ήχου κατά την έναρξη μιας κλήσης (απαιτείται το Nextcloud Talk)",
     "None" : "Καμμία",
     "You need to set up your email address before you can receive notification emails." : "Πρέπει να ρυθμίσετε τη διεύθυνση email σας για να μπορείτε να λαμβάνετε μηνύματα ηλεκτρονικού ταχυδρομείου ειδοποίησης.",
-    "seconds ago" : " δευτερόλεπτα πριν "
+    "Also repeat sound on a secondary speaker" : "Επανάληψη ήχου και σε δευτερεύον ηχείο",
+    "Selection of the speaker device is currently not supported by Safari" : "Η επιλογή συσκευής ηχείου δεν υποστηρίζεται προς το παρόν από το Safari",
+    "Select a device" : "Επιλογή συσκευής",
+    "seconds ago" : " δευτερόλεπτα πριν ",
+    "Configure the default notification settings for new users" : "Καθορίστε τις προεπιλεγμένες ρυθμίσεις ειδοποιήσεων για νέους χρήστες."
 },
 "nplurals=2; plural=(n != 1);");
